@@ -205,13 +205,13 @@ class Player {
 				wallY = walls[i].y2;
 			if (walls[i].horizontal) {
 				wallWidth = walls[i].getRawLength();
-				wallHeight = 4;
+				wallHeight = 2;
 			} else {
 				wallHeight = walls[i].getRawLength();
-				wallWidth = 4;
+				wallWidth = 2;
 			}
-			wallX -= 2;
-			wallY -= 2;
+			wallX -= 1;
+			wallY -= 1;
 			
 			let cat = !collideRectCircle(wallX, wallY, wallWidth, wallHeight, center.x + dir.x, center.y + dir.y, this.size);
 			if (cat == false)
