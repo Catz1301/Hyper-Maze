@@ -1,0 +1,6 @@
+<components xoff="2" yoff="2">
+  <button x="0" y="0" width="200" height="25" text="testing" id="meowmeow" textScale="1"/>
+  <button x="0" y="25" width="200" height="25" text="Share" id="shareBtn" textScale="0.85"/>
+	<button x="0" y="50" width="200" height="25" text="Generate Maze" id="generateMaze" textScale="0.75"/>
+	<!--<button x="0" y="75" width="200" height="25" text="Optimize Maze" id="optimizeMaze" textScale="0.75"/>-->
+</components>

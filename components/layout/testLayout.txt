@@ -1,0 +1,3 @@
+<components>
+  <checkbox x="20" y="20" value="true" label="Meowmeow"/>
+</components>

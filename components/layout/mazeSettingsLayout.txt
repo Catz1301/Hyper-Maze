@@ -1,0 +1,25 @@
+<components xoff="15" yoff="17">
+  <label x="2" y="0" width="300" height="50" text="Maze background" />
+  <label x="2" y="55" width="30" height="50" text="R" />
+  <input type="number" id="backgroundColorR" x="32" y="55" width="75" height="50" value="51" maxValue="255"/>
+  <label x="122" y="55" width="30" height="50" text="G" />
+  <input type="number" id="backgroundColorG" x="152" y="55" width="75" height="50" value="51" maxValue="255"/>
+  <label x="242" y="55" width="30" height="50" text="B" />
+  <input type="number" id="backgroundColorB" x="272" y="55" width="75" height="50" value="51" maxValue="255"/>
+  
+  <label x="2" y="130" width="300" height="50" text="Wall Color" />
+  <label x="2" y="185" width="30" height="50" text="R" />
+  <input type="number" id="wallColorR" x="32" y="185" width="75" height="50" value="51" maxValue="255"/>
+  <label x="122" y="185" width="30" height="50" text="G" />
+  <input type="number" id="wallColorG" x="152" y="185" width="75" height="50" value="51" maxValue="255"/>
+  <label x="242" y="185" width="30" height="50" text="B" />
+  <input type="number" id="wallColorB" x="272" y="185" width="75" height="50" value="51" maxValue="255"/>
+  
+  <label x="2" y="260" width="300" height="50" text="Player Color" />
+  <label x="2" y="315" width="30" height="50" text="R" />
+  <input type="number" id="playerColorR" x="32" y="315" width="75" height="50" value="51" maxValue="255"/>
+  <label x="122" y="315" width="30" height="50" text="G" />
+  <input type="number" id="playerColorG" x="152" y="315" width="75" height="50" value="51" maxValue="255"/>
+  <label x="242" y="315" width="30" height="50" text="B" />
+  <input type="number" id="playerColorB" x="272" y="315" width="75" height="50" value="51" maxValue="255"/>
+</components>
